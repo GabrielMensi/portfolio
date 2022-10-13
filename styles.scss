@@ -88,7 +88,8 @@ body {
             .name {
             color: var(--grey);
             font-size: 5em;
-            @media (max-width: 600px) {
+            @media (max-width: 768px) {
+              text-align: center;
               font-size: 3em;
             }
             @media screen and (max-width: 400px) {
@@ -98,7 +99,7 @@ body {
             }
             .description {
             font-size: 2em;
-            @media (max-width: 600px) {
+            @media (max-width: 768px) {
               text-align: center;
             }
             @media screen and (max-width: 400px) {
@@ -217,10 +218,12 @@ body {
             align-items: center;
             justify-content: center;
             flex-wrap: wrap;
+            row-gap: 20px;
             img {
             width: 50px;
             height: 50px;
-            margin-right: 20px;
+            margin-right: 10px;
+            margin-left: 10px;
             z-index: 1000;
             }
             .react-router{
@@ -229,10 +232,10 @@ body {
             .responsive{
               width: 70px;
             }
-            .styled-components-img{
-              height: 100px;
-              width: 90px;
-            }
+            // .styled-components-img{
+              // height: 100px;
+              // width: 90px;
+            // }
            }
         }
       }   
@@ -443,7 +446,8 @@ body {
             span{
               button {
                 height: 5vh;
-                width: 10vw;
+                // width: 10vw;
+                width: 150px;
                 background-color: var(--red);
                 border: none;
                 transition: all 0.5s ease-out;
@@ -452,13 +456,13 @@ body {
                 color: var(--dark);
                 cursor: pointer;
                 font-size: 1.2em;
-                @media (max-width: 800px) {
-                  width: 20vw;
-                }
+                // @media (max-width: 800px) {
+                //   width: 40vw;
+                // }
             }
             button:hover{
                 background-color: var(--navy);
-                transform: scale(150%);
+                transform: scale(110%);
                 color: var(--red);
             }
             }
