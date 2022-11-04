@@ -511,6 +511,7 @@ body .proyects .card-container .card__caption .tecnologies-img {
 
 body .proyects .card-container .card__caption .tecnologies-img .react {
   width: 50px;
+  margin: 0 5px;
 }
 
 body .proyects .card-container .card__caption .tecnologies-img .styled {
