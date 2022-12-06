@@ -166,6 +166,7 @@ body .home .title-container .description {
 
 body .about {
   height: auto;
+  width: 90%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -194,18 +195,12 @@ body .about h5 {
 
 body .about .abilities .abilities-container {
   background-color: var(--navy);
-  width: 50vw;
+  width: 100%;
   height: auto;
   border-radius: 5px;
   padding: 30px;
   margin-bottom: 3vh;
   margin-top: 60px;
-}
-
-@media (max-width: 1366px) {
-  body .about .abilities .abilities-container {
-    width: 80vw;
-  }
 }
 
 @media screen and (max-width: 400px) {
@@ -260,16 +255,10 @@ body .about .container-skills-language {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  width: 50vw;
+  width: 100%;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-}
-
-@media (max-width: 1366px) {
-  body .about .container-skills-language {
-    width: 80vw;
-  }
 }
 
 @media (max-width: 600px) {
@@ -294,7 +283,7 @@ body .about .container-skills-language .soft-skills {
       -ms-flex-pack: center;
           justify-content: center;
   background-color: var(--navy);
-  width: 80vw;
+  width: 100%;
   height: auto;
   border-radius: 5px;
   padding: 20px;
@@ -303,6 +292,15 @@ body .about .container-skills-language .soft-skills {
 @media screen and (max-width: 400px) {
   body .about .container-skills-language .soft-skills {
     padding: 16px;
+  }
+}
+
+@media screen and (min-width: 1700px) {
+  body .about .container-skills-language .soft-skills {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 
@@ -393,10 +391,9 @@ body .proyects .card-container {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 90%;
   margin: 20px 0;
 }
 
@@ -599,6 +596,7 @@ body .proyects .card-container .card__button:hover {
 
 body .contact {
   height: 100vh;
+  width: 90%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -609,6 +607,7 @@ body .contact {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 40px;
 }
 
 body .contact h5 {
@@ -633,14 +632,20 @@ body .contact .contact-card {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 5vh;
+  margin-top: 20px;
   z-index: 100;
-  width: 50vw;
+  width: 80%;
 }
 
 @media (max-width: 1366px) {
   body .contact .contact-card {
     width: 80vw;
+  }
+}
+
+@media (max-width: 800px) {
+  body .contact .contact-card {
+    width: 100%;
   }
 }
 
@@ -666,8 +671,8 @@ body .contact .contact-card span button:hover {
 }
 
 body .contact .contact-card .input1 {
-  height: 5vh;
-  width: 50vw;
+  height: 50px;
+  width: 100%;
   margin: 10px;
   border: none;
   border-radius: 3px;
@@ -684,7 +689,7 @@ body .contact .contact-card .input1 {
 
 body .contact .contact-card #mensaje {
   height: 20vh;
-  width: 50vw;
+  width: 100%;
   margin: 10px;
   border: none;
   border-radius: 3px;
