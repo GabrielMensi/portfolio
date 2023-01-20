@@ -357,8 +357,20 @@ body .about .container-skills-language .soft-skills .skills-img .react-router {
   width: 80px;
 }
 
-body .about .container-skills-language .soft-skills .skills-img .responsive {
-  width: 70px;
+body .about .container-skills-language .soft-skills .skills-img .nodejs {
+  width: 80px;
+}
+
+body .about .container-skills-language .soft-skills .skills-img .express {
+  width: 50px;
+}
+
+body .about .container-skills-language .soft-skills .skills-img .mysql {
+  width: 50px;
+}
+
+body .about .container-skills-language .soft-skills .skills-img .tailwind {
+  width: 50px;
 }
 
 body .proyects {
@@ -513,10 +525,32 @@ body .proyects .card-container .card__caption .tecnologies-img .react {
 
 body .proyects .card-container .card__caption .tecnologies-img .styled {
   height: 100px;
+  margin: 0 5px;
 }
 
 body .proyects .card-container .card__caption .tecnologies-img .router {
   width: 100px;
+  margin: 0 5px;
+}
+
+body .proyects .card-container .card__caption .tecnologies-img .nodejs {
+  width: 80px;
+  margin: 0 5px;
+}
+
+body .proyects .card-container .card__caption .tecnologies-img .express {
+  width: 50px;
+  margin: 0 5px;
+}
+
+body .proyects .card-container .card__caption .tecnologies-img .mysql {
+  width: 50px;
+  margin: 0 5px;
+}
+
+body .proyects .card-container .card__caption .tecnologies-img .tailwind {
+  width: 50px;
+  margin: 0 5px;
 }
 
 @media screen and (max-width: 500px) {

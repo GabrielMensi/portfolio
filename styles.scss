@@ -227,8 +227,20 @@ body {
             .react-router{
               width: 80px;
             }
-            .responsive{
-              width: 70px;
+            // .responsive{
+            //   width: 70px;
+            // }
+            .nodejs{
+              width: 80px;
+            }
+            .express{
+              width: 50px;
+            }  
+            .mysql{
+              width: 50px;
+            }          
+            .tailwind{
+              width: 50px;
             }
            }
         }
@@ -337,9 +349,27 @@ body {
                 }
                 .styled{
                   height: 100px;
+                  margin: 0 5px;
                 }
                 .router{
                   width: 100px;
+                  margin: 0 5px;
+                }
+                .nodejs{
+                  width: 80px;
+                  margin: 0 5px;
+                }
+                .express{
+                  width: 50px;
+                  margin: 0 5px;
+                }  
+                .mysql{
+                  width: 50px;
+                  margin: 0 5px;
+                }          
+                .tailwind{
+                  width: 50px;
+                  margin: 0 5px;
                 }
                 @media screen and (max-width: 500px) {
                   display: none;
