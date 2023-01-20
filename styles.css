@@ -148,20 +148,47 @@ body .home .title-container .name {
   }
 }
 
-body .home .title-container .description {
+body .home .title-container .subtitle-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .home .title-container .subtitle-container .description {
   font-size: 2em;
 }
 
 @media (max-width: 768px) {
-  body .home .title-container .description {
+  body .home .title-container .subtitle-container .description {
     text-align: center;
   }
 }
 
 @media screen and (max-width: 400px) {
-  body .home .title-container .description {
+  body .home .title-container .subtitle-container .description {
     font-size: 1.6em;
   }
+}
+
+body .home .title-container .subtitle-container span {
+  margin-right: 10px;
+}
+
+body .home .title-container .subtitle-container span .cv-icon {
+  margin-right: 10px;
+  cursor: pointer;
+  color: #F05454;
+}
+
+body .home .title-container .subtitle-container span .linkedin-icon {
+  cursor: pointer;
+  color: #F05454;
 }
 
 body .about {
