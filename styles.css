@@ -137,14 +137,20 @@ body .home .title-container .name {
 @media (max-width: 768px) {
   body .home .title-container .name {
     text-align: center;
-    font-size: 3em;
+    font-size: 4em;
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 540px) {
   body .home .title-container .name {
-    font-size: 2.5em;
+    font-size: 3em;
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 395px) {
+  body .home .title-container .name {
+    font-size: 2em;
   }
 }
 
@@ -170,9 +176,15 @@ body .home .title-container .subtitle-container .description {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 540px) {
   body .home .title-container .subtitle-container .description {
-    font-size: 1.6em;
+    font-size: 1.4em;
+  }
+}
+
+@media screen and (max-width: 395px) {
+  body .home .title-container .subtitle-container .description {
+    font-size: 0.95em;
   }
 }
 
@@ -186,9 +198,34 @@ body .home .title-container .subtitle-container span .cv-icon {
   color: #F05454;
 }
 
+@media screen and (max-width: 540px) {
+  body .home .title-container .subtitle-container span .cv-icon {
+    width: 25px;
+  }
+}
+
+@media screen and (max-width: 395px) {
+  body .home .title-container .subtitle-container span .cv-icon {
+    width: 20px;
+    margin-right: 2px;
+  }
+}
+
 body .home .title-container .subtitle-container span .linkedin-icon {
   cursor: pointer;
   color: #F05454;
+}
+
+@media screen and (max-width: 540px) {
+  body .home .title-container .subtitle-container span .linkedin-icon {
+    width: 25px;
+  }
+}
+
+@media screen and (max-width: 395px) {
+  body .home .title-container .subtitle-container span .linkedin-icon {
+    width: 20px;
+  }
 }
 
 body .about {
